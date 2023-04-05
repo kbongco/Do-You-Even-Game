@@ -1,0 +1,58 @@
+/* Colors to use: 
+#587291, #1F86FB, #EDFCFD, #19A388, #2B7494 */
+
+* {
+  font-family: "Outfit", sans-serif;
+  background: #587291;
+  color: white;
+}
+
+.gaming-header-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.gaming-section {
+  height: 80vh;
+  margin: 8px;
+  background: #edfcfd;
+}
+
+.gaming-start-header {
+  background: #edfcfd;
+  color: black;
+  margin: 0;
+  font-size: 3rem;
+  padding-top: 16px;
+}
+
+.gaming-header-container {
+  display: flex;
+  justify-content: center;
+  background: #edfcfd;
+}
+
+.gaming-start {
+  background: #edfcfd;
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  align-items: center;
+}
+
+.gaming-start-button {
+  height: 50px;
+  width: 10rem;
+  border-radius: 20%;
+  background-color: #19a388;
+  margin-right: 24px;
+}
+
+.gaming-view-button {
+  height: 50px;
+  width: 10rem;
+  border-radius: 20%;
+  background-color: #1F86FB;
+}
